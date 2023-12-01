@@ -1,0 +1,39 @@
+@media (max-width:991px){
+    .nav-item{
+        width: fit-content;
+    }
+}
+
+@media (max-width:768px){
+    .about .count{
+        border-bottom: none;
+        border-left:none;
+    }
+    .download-resume {
+        justify-content: center !important;
+    }
+    .download-resume .download a{
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:568px){
+    header{
+        background-position-x: -235px;
+    }
+    .header-content{
+        align-items: start !important;
+    }
+    h1{
+        font-size:45px; 
+    }
+    .contact p, .contact form{
+        width: 100% !important;
+    }
+}
+@media (max-width:766px){
+   footer{
+    text-align: center;
+   }
+}
